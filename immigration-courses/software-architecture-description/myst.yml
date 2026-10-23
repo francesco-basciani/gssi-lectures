@@ -1,0 +1,22 @@
+version: 1
+project:
+  title: Software Architecture Description
+  description: Interactive teaching material on deriving software architecture from requirements.
+  authors:
+    - name: Francesco Basciani
+      affiliation: Gran Sasso Science Institute (GSSI)
+  github: https://github.com/francesco-basciani/gssi-lectures
+  toc:
+    - file: index.md
+    - file: 01-requirements-shape-architecture.md
+    - file: 02-space-example.md
+    - file: 03-railway-domain.md
+    - file: 04-train-station-simulator.md
+    - file: 05-group-activity.md
+    - file: 06-debrief-and-solution.md
+site:
+  template: book-theme
+  title: Software Architecture Description
+  options:
+    logo_text: GSSI · Software Architecture Description
+    outline_maxdepth: 3
